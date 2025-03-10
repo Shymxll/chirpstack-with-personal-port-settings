@@ -22,7 +22,7 @@ services:
       - TEST_KAFKA_BROKER=kafka:9092
       - TEST_AMQP_URL=amqp://guest:guest@rabbitmq:5672
     ports:
-      - "8087:8080"
+      - "9080:8080"
 
   postgres:
     image: postgres:11-alpine
